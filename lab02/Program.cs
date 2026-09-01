@@ -40,30 +40,49 @@ namespace lab02
             hpPercent = currentHp * 100 / maxHp;
             Console.WriteLine($"HP Percent: {hpPercent}%");
 
-            Console.WriteLine($"Name: {Aiden}");
-            Console.WriteLine($"class: {Warrior}");
-            Console.WriteLine($"HP: {400}");
-            Console.WriteLine($"Speed: {60}");
-            Console.Writeline($"attack; {84}");
-            Console.Writeline($"luck; {50}");
-            Console.WriteLine($"Name: {Orion}");
-            Console.WriteLine($"class: {Wizar}");
-            Console.WriteLine($"HP: {2500}");
-            Console.WriteLine($"Speed: {40}");
-            Console.Writeline($"attack; {120}");
-            Console.Writeline($"luck; {70}");
-            Console.WriteLine($"Name: {Raven}");
-            Console.WriteLine($"class: {Assassin}");
-            Console.WriteLine($"HP: {150}");
-            Console.WriteLine($"Speed: {99}");
-            Console.Writeline($"attack; {100}");
-            Console.Writeline($"luck; {60}");
-            Console.WriteLine($"Name: {Zane}");
-            Console.WriteLine($"class: {Tank}");
-            Console.WriteLine($"HP: {1000}");
-            Console.WriteLine($"Speed: {25}");
-            Console.Writeline($"attack; {30}");
-            Console.Writeline($"luck; {31}");
+            string heroName = "Aiden";
+            int hero1hp = 400;
+            float hero1atk = 100;
+            double hero1Speed = 60;
+            char hero1luck = 84;
+            Console.WriteLine("----- HERO 1 -----");
+            Console.WriteLine($"Name: {hero1Name}");
+            Console.WriteLine($"HP: {hero1Hp}");
+            Console.WriteLine($"atk: {hero1atk}");
+            Console.WriteLine($"luck: {hero1luck}");
+            
+            string heroName = "Orion";
+            int hero1hp = 450;
+            float hero1atk = 260;
+            double hero1Speed = 30;
+            char hero1luck = 44;
+            Console.WriteLine("----- HERO 2 -----");
+            Console.WriteLine($"Name: {hero2Name}");
+            Console.WriteLine($"HP: {hero2Hp}");
+            Console.WriteLine($"atk: {hero2atk}");
+            Console.WriteLine($"luck: {hero2luck}");
+           
+            string heroName = "Raven";
+            int hero1hp = 200;
+            float hero1atk = 200;
+            double hero1Speed = 42;
+            char hero1luck = 36;
+            Console.WriteLine("----- HERO 3 -----");
+            Console.WriteLine($"Name: {hero3Name}");
+            Console.WriteLine($"HP: {hero3Hp}");
+            Console.WriteLine($"atk: {hero3atk}");
+            Console.WriteLine($"luck: {hero3luck}");
+            
+            string heroName = "Zane";
+            int hero4hp = 600;
+            float hero4atk = 140;
+            double hero4Speed = 66;
+            char hero4luck = 40;
+            Console.WriteLine("----- HERO 4 -----");
+            Console.WriteLine($"Name: {hero4Name}");
+            Console.WriteLine($"HP: {hero4Hp}");
+            Console.WriteLine($"atk: {hero4atk}");
+            Console.WriteLine($"luck: {hero4luck}");
         }
     }
 }
