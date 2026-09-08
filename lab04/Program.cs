@@ -1,31 +1,17 @@
-﻿namespace lab04
+﻿/*
+* Student ID : 1690703754
+* Name       :Lab02
+* Section    :129D
+* No.        :6
+* Course     :GI113 Computer Programming (Gi)
+*/
+
+namespace lab04
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("+------------------------------+");
-            Console.WriteLine("|          NEW ADVENTURE       |");
-            Console.WriteLine("+------------------------------+");
-            Console.Write("Name your hero: ");
-            string PlayerName = Console.ReadLine();
-            Console.Write($"\nWelcome, {PlayerName}. Your jouruey begyns..");
-
-            Console.WriteLine("+------------------------------+");
-            Console.WriteLine("|      DIFFICULTY SELECT       |");
-            Console.WriteLine("+------------------------------+");
-            Console.Write("Choos difficuty (1-3): ");
-            int difficulty = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine($"\nDifficulty {difficulty} selected. Good luck out There..");
-
-            Console.WriteLine("+------------------------------+");
-            Console.WriteLine("|           ITEM SHOP           |");
-            Console.WriteLine("+------------------------------+");
-            Console.Write("How many potions? ");
-            bool quantityOk = int.TryParse(Console.ReadLine(), out int quantity);
-            Console.WriteLine($"Valid input: {quantityOk}");
-            Console.WriteLine($"Quantity: {quantity}");
-
             Console.WriteLine("+------------------------------+");
             Console.WriteLine("|      CHARACTER CREATION       |");
             Console.WriteLine("+------------------------------+");
@@ -36,6 +22,14 @@
             Console.Write("Starting luck (0.0-10.0): ");
             bool luckOk = double.TryParse(Console.ReadLine(), out double luck);
             Console.WriteLine($"\n{charName} the Class-{classNum} adventurer enters the dungeon. Luck: {luck}");
+
+            Console.WriteLine("+------------------------------+");
+            Console.WriteLine("|           ITEM SHOP           |");
+            Console.WriteLine("+------------------------------+");
+            Console.Write("How many potions? ");
+            bool quantityOk = int.TryParse(Console.ReadLine(), out int quantity);
+            Console.WriteLine($"Valid input: {quantityOk}");
+            Console.WriteLine($"Quantity: {quantity}");
 
             Console.WriteLine("+------------------------------+");
             Console.WriteLine("|          SET VOLUME           |");
