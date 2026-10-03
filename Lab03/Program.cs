@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+ * Student ID : 1690703754
+ * Name       :Lab02
+ * Section    :129D
+ * No.        :6
+ * Course     :GI113 Computer Programming (Gi)
+ */
+using System.Collections;
 using System.Runtime.CompilerServices;
 
 namespace lab03
